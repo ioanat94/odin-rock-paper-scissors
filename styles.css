@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "retro-gaming";
+    src: url('assets/retro-gaming.ttf');
+}
+
+body {
+    background-color: oldlace;
+    font-family: "retro-gaming";
+    font-size: 22px;
+    color: black;
+}
+
+#wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+#rps-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+button {
+    background-color: transparent;
+    box-shadow: 3px 3px rgb(114, 90, 55);
+}
+
+button:hover {
+    transform: translate(3px, 3px);
+    box-shadow: none;
+}
+
+#game-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+#restart {
+    width: 160px;
+    margin-top: 20px;
+}
+
+#restart-img {
+    transform: translate(-3px, 3px);
+    width: 150px;
+    height: auto;
+}
